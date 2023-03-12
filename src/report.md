@@ -139,10 +139,83 @@ netstat колонки:
 - State - состояние соединения (LISTEN - готовность к установке соединения)
 
 ## Part 9. Установка и использование утилит top, htop
+![guinicyb](pics/9.0.png)\
+_Команда top_
 
+![guinicyb](pics/9.1.png)\
+_htop по PID_
 
+![guinicyb](pics/9.2.png)\
+_htop по CPU%_
 
+![guinicyb](pics/9.3.png)\
+_htop по MEM%_
 
+![guinicyb](pics/9.4.png)\
+_htop по TIME_
+
+![guinicyb](pics/9.5.png)\
+_htop c фильтром по sshd_
+
+![guinicyb](pics/9.6.png)\
+_htop поиск syslog_
+
+![guinicyb](pics/9.7.png)\
+_htop добавлен вывод hostname, clock, uptime_
+
+## Part 10. Использование утилиты fdisk
+![guinicyb](pics/10.0.png)\
+_Вывод команды fdisk_
+
+## Part 11. Использование утилиты df
+![guinicyb](pics/11.0.png)\
+_Выводы команды df без флагом и с флагами Th_
+
+При использовании команды без флага h размеры указываются в килобайтах.
+Флаг T показывает тип файловой системы (на системе - ext4).
+
+## Part 12. Использование утилиты du
+![guinicyb](pics/12.1.png)\
+_Выводы команды du -h /home_
+
+![guinicyb](pics/12.2.png)\
+_Выводы команды du -h /var_
+
+![guinicyb](pics/12.3.png)\
+_Выводы команды du -h /var/log_
+
+![guinicyb](pics/12.4.png)\
+_Выводы команды du -ha /var/log/*_
+
+## Part 13. Установка и использование утилиты ncdu
+![guinicyb](pics/13.0.png)\
+_Выводы команды ncdu /home_
+
+![guinicyb](pics/13.1.png)\
+_Выводы команды ncdu /var_
+
+![guinicyb](pics/13.2.png)\
+_Выводы команды ncdu /var/log_
+
+## Part 14. Работа с системными журналами
+![guinicyb](pics/14.0.png)\
+_Чтение /var/log/dmesg_
+
+![guinicyb](pics/14.1.png)\
+_Чтение /var/log/syslog_
+
+![guinicyb](pics/14.2.png)\
+_Последний логин_
+
+![guinicyb](pics/14.3.png)\
+_Рестарт сервиса sshd_
+
+## Part 15. Использование планировщика заданий CRON
+![guinicyb](pics/15.0.png)\
+_Создание задачи при помощи команды crontab -e _
+
+![guinicyb](pics/15.1.png)\
+_Задача выполнилась автоматически через 2 минуты (в /var/log/syslog)_
 
 
 
